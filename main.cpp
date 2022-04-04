@@ -43,22 +43,22 @@ int main(){
             stacky.vazia();
 
             if(stacky.vazia()==true){
-                cout << "a lista esta vazia" << endl;
+                cout << "a pilha esta vazia" << endl;
             }else {
-                cout << "a lista nao esta vazia" << endl;
+                cout << "a pilha nao esta vazia" << endl;
             }
         }else if(comando=="top"){
             cout << "ok"<< endl; 
             int a=stacky.top();
-            cout << "o primeiro elemento da lista e: "<< a<< endl;
+            cout << "o primeiro elemento da pilha e: "<< a<< endl;
         }else if(comando=="size"){
             cout << "ok"<< endl<< endl; 
-            cout << "o tamanho da lista e " << stacky.tamanho()<< endl;
+            cout << "o tamanho da pilha e " << stacky.tamanho()<< endl;
         }else if(comando=="sair"){
             break;
         }else if(comando=="imprimir"){
             cout << "ok"<< endl; 
-            cout << "a lista e: "<< endl;
+            cout << "a pilha e: "<< endl;
             stacky.imprimir();
         }
     }
